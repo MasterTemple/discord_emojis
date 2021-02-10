@@ -40,7 +40,7 @@ console.log(middle_color)
 const fs = require('fs');
 var decor = true
 var outer_bookmark = false
-var inner_bookmark = true
+var inner_bookmark = false
 
 var decor_path = `<path xmlns="http://www.w3.org/2000/svg" fill="#E1E8ED" d="M25 18c0 1.104-.896 2-2 2H13c-1.104 0-2-.896-2-2v-2c0-1.104.896-2 2-2h10c1.104 0 2 .896 2 2v2z"/>`
 var outer_bookmark_path = `<g xmlns="http://www.w3.org/2000/svg" fill="#DD2E44"><path d="M17 4v23l4-6 4 6V4z"/><path d="M25 28c-.328 0-.644-.162-.832-.445L21 22.803l-3.168 4.752c-.245.367-.701.531-1.122.402-.421-.128-.71-.517-.71-.957V4c0-.552.448-1 1-1h8c.553 0 1 .448 1 1v23c0 .44-.288.829-.71.957-.096.029-.193.043-.29.043zm-4-8c.334 0 .646.167.832.445L24 23.697V5h-6v18.697l2.168-3.252c.186-.278.498-.445.832-.445z"/></g>`
